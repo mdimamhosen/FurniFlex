@@ -51,7 +51,7 @@ const SignUp = () => {
 
       {/* Right Side */}
       <div className="w-full lg:w-1/2 h-full bg-white p-10 flex items-center justify-center">
-        <div className="w-full max-w-md">
+        <div className="w-full max-w-md pb-40">
           <h2 className="text-4xl font-bold mb-4 text-center">
             Welcome to <br /> <Heading normal="Furni" colored="Flex" />
           </h2>

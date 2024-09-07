@@ -21,12 +21,12 @@ const Footer = () => {
           <div className="flex flex-col">
             <h4 className="text-lg font-bold mb-4">About Us</h4>
             <ul className="space-y-2">
-              <li>Master Plan</li>
-              <li>Jobs</li>
-              <li>Invest</li>
-              <li>Pressroom</li>
-              <li>Blog</li>
-              <li>Contact</li>
+              <li className="text-sm lg:text-base">Master Plan</li>
+              <li className="text-sm lg:text-base">Jobs</li>
+              <li className="text-sm lg:text-base">Invest</li>
+              <li className="text-sm lg:text-base">Pressroom</li>
+              <li className="text-sm lg:text-base">Blog</li>
+              <li className="text-sm lg:text-base">Contact</li>
             </ul>
           </div>
 
@@ -34,12 +34,12 @@ const Footer = () => {
           <div className="flex flex-col">
             <h4 className="text-lg font-bold mb-4">Explore EEVE</h4>
             <ul className="space-y-2">
-              <li>Unlock my robot power</li>
-              <li>Strainglight</li>
-              <li>Robot platform</li>
-              <li>EEVE Roadmap</li>
-              <li>EEVE for business</li>
-              <li>EEVE for education</li>
+              <li className="text-sm lg:text-base">Unlock my robot power</li>
+              <li className="text-sm lg:text-base">Strainglight</li>
+              <li className="text-sm lg:text-base">Robot platform</li>
+              <li className="text-sm lg:text-base">EEVE Roadmap</li>
+              <li className="text-sm lg:text-base">EEVE for business</li>
+              <li className="text-sm lg:text-base">EEVE for education</li>
             </ul>
           </div>
 
@@ -47,12 +47,12 @@ const Footer = () => {
           <div className="flex flex-col">
             <h4 className="text-lg font-bold mb-4">Support</h4>
             <ul className="space-y-2">
-              <li>Help Center</li>
-              <li>Warranty</li>
-              <li>Contact us</li>
-              <li>Shipping</li>
-              <li>Returns</li>
-              <li>FAQ</li>
+              <li className="text-sm lg:text-base">Help Center</li>
+              <li className="text-sm lg:text-base">Warranty</li>
+              <li className="text-sm lg:text-base">Contact us</li>
+              <li className="text-sm lg:text-base">Shipping</li>
+              <li className="text-sm lg:text-base">Returns</li>
+              <li className="text-sm lg:text-base">FAQ</li>
             </ul>
           </div>
         </div>
@@ -63,14 +63,14 @@ const Footer = () => {
         {/* Social Media and Info */}
         <div className="flex  sm:text-[8px] md:text-sm     flex-row w-full justify-between  items-center  ">
           {/* Social Media Links */}
-          <div className="flex gap-4    ">
+          <div className="flex gap-4  text-sm lg:text-base  ">
             <FaFacebookF className="hover:text-blue-500 cursor-pointer" />
             <FaInstagram className="hover:text-pink-500 cursor-pointer" />
             <FaWhatsapp className="hover:text-green-500 cursor-pointer" />
           </div>
 
           {/* Last Section: Location, Language, Currency */}
-          <div className="text-center   ">
+          <div className="text-center  text-sm lg:text-base">
             <span>United States, English, $ USD</span>
           </div>
         </div>
